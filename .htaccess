@@ -1,0 +1,36 @@
+php_flag short_open_tag on
+php_flag display_errors on
+#php_value auto_append_file /append.php
+# direction Error
+# 404.php
+
+# no only request cross domain
+
+RewriteEngine on
+
+#RewriteRule ^(([^/]+/)*[^.]+)$ /$1.php [L]
+
+# config website
+
+RewriteRule ^app/([^/]+)\/?$ /infomation.php?name=$1&nospace=1
+
+
+RewriteRule ^(faqs|rules|tutorial)\/?$ /read-markdown.php?file=$1
+
+RewriteRule ^category/([a-zA-Z0-9_-]+)\/?$ /index.php?category=$1
+
+RewriteRule ^tag/iOS\-([0-9]+)\/?$ /index.php?tag=$1
+
+RewriteRule ^(change\-log|id)\/?$ /$1.php
+
+RewriteRule ^id/([0-9]+)\/?$ /id.php?_=$1
+
+RewriteRule ^tiny/([a-zA-Z0-9-_]+)\/?$ /tiny-link?hash=$1
+
+# Rules for /admin
+
+RewriteRule ^admin/upload\/?$ /admin/editable.php
+
+RewriteRule ^admin/edit/([a-zA-Z0-9_-]+)\/?$ /admin/editable.php?name=$1
+
+RewriteRule ^admin/login\/?$ /admin/login.php

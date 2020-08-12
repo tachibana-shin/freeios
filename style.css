@@ -1,0 +1,220 @@
+
+body, .bg-global {
+   background-color: #eee;
+   color: #333;
+}
+.bg-white {
+   background-color: #fff !important
+}
+.font-15px {
+   font-size: 15px
+}
+.py-15px {
+   padding-top: 15px !important;
+   padding-bottom: 15px !important;
+}
+.pt-30px {
+   padding-top: 30px !important
+}
+
+.p-10px {
+   padding: 10px !important
+}
+.p-15px {
+   padding: 15px !important
+}
+
+.line-height-1 {
+   line-height: 1 !important
+}
+
+.text-color-inherit {
+   color: inherit !important;
+}
+.font-130pt {
+   font-size: 1.3em !important;
+}
+
+.text-mute {
+   color: rgba(0, 0, 0, .5) !important;
+   font-size: 80% !important
+}
+
+.bg-0 {
+   background-color: #00000000 !important
+}
+
+.App {
+   padding-top: 1rem !important;
+   padding-bottom: 1rem !important;
+}
+
+.App a {
+   text-decoration: none
+}
+
+.App:last-child {
+   border-bottom: 0 !important
+}
+
+.weight-300 {
+   font-weight: 300
+}
+
+.color-666 {
+   color: #666 !important;
+}
+.a-global {
+   color: #009587 !important;
+   text-decoration: none !important;
+}
+
+.text-dark, .text-dark > .a-global{
+   color: #343a40 !important;
+}
+
+.listWidget {
+   border-radius: 2px !important;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, .2) !important;
+   margin-top: 15px !important;
+   margin-bottom: 15px !important;
+}
+
+.icon--social {
+   width: 24px;
+   height: 24px;
+   fill: currentColor;
+}
+.icon--social-facebook {
+   color: #3560a1;
+}
+.icon--social-twitter {
+   color: #28a9e0;
+}
+.icon--social-gplus {
+   color: #db4437;
+}
+body {
+    background-color: #eee;
+    font-weight: 400;
+}
+
+.header__avatar {
+    margin-right: 10px;
+}
+
+.header__avatar--icon {
+    width: 96px;
+    height: 96px;
+}
+
+.main--header {
+    padding: 20px 15px 24px 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+}
+
+.app-title {
+    font-size: 36px !important;
+    font-weight: normal !important;
+    margin: 0 !important;
+}
+
+.dev-title {
+    font-size: 24px !important;
+    font-weight: 300 !important;
+    margin: 0 !important;
+}
+.app-download, .app-update {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    color: rgba(0, 0, 0, .5) !important;
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .app-title {
+        font-size: 26px !important
+    }
+    .dev-title {
+        font-size: 18px !important
+    }
+}
+
+
+.py-10px {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mx-15px {
+    margin-left: 15px;
+    margin-right: 15px
+}
+@meida (max-width: 771px) {
+   body {
+      font-size: 14px
+   }
+}
+
+.no-a {
+   color: currentColor !important;
+   text-decoration: none;
+}
+.no-a:hover {
+   color: rgba(0, 0, 0, .5) !important;
+}
+
+.errorPage {
+   background-color: $fff !important;
+   border-radius: 2px !important;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, .2) !important;
+   padding: 25px !important;
+   margin: 0 !important;
+}
+.errorPage a {
+   text-decoration: none !important;
+}
+
+.errorLeft {
+	color: #f36f46 !important;
+	width: 170px !important;
+	text-align: center !important;
+}
+
+.errorLeft * {
+    animation: fade 5s linear infinite;
+}
+@keyframes fade {
+    0%, 100% {
+       opacity: 1;
+    }
+    50% {
+       opacity: 0.2
+    }
+}
+
+.errorLeft h1 {
+	font-size: 100px !important;
+}
+
+@media screen and (max-width: 480px) {
+	.errorLeft h1 {
+		font-size: 40px !important;
+		width: 80px !important;
+	}
+}
+
+.errorRight {
+	width: 100% !important;
+	color: #000 !important;
+	padding-top: 15px 0 15px 15px !important;
+	word-break: break-word !important;
+	white-space: normal !important;
+	text-align: center !important;
+}
+
+ .render__markdown a {
+     color: #009587 !important;
+     text-decoration: none !important;
+}
+ 
